@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "https://dhruv-folio.vercel.app/",
     images: [
       {
-        url: "https://i.imgur.com/nVjvG8D.png",
+        url: "https://raw.githubusercontent.com/dhruv-colosus/Dhruv-folio/main/public/titlescreen.png",
         width: 1200,
         height: 630,
         alt: "Dhruv Deora — Designer and Developer",
