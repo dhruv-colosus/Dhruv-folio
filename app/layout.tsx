@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     title: "Dhruv Deora — Designer and Developer",
     description:
       "FullStack Developer and UI/UX Designer, currently studying at NSUT. Focused on interfaces and experiences, working remotely from New Delhi, India.",
-    url: "https://dhruv-folio.vercel.app/",
-    siteName: "https://dhruv-folio.vercel.app/",
+    url: "https://dhruvcreative.vercel.app/",
+    siteName: "https://dhruvcreative.vercel.app/",
     images: [
       {
         url: "https://raw.githubusercontent.com/dhruv-colosus/Dhruv-folio/main/public/titlescreen.png",
