@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Dhruv Deora — Creative Engineer",
   description:
-    "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "FullStack Developer and UI/UX Designer, currently studying at NSUT. Focused on interfaces and experiences, working remotely from New Delhi, India.",
   generator: "Next.js",
   applicationName: "Dhruv Deora",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dhruv Deora — Designer and Developer",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "FullStack Developer and UI/UX Designer, currently studying at NSUT. Focused on interfaces and experiences, working remotely from New Delhi, India.",
     url: "https://dhruv-folio.vercel.app/",
     siteName: "https://dhruv-folio.vercel.app/",
     images: [
