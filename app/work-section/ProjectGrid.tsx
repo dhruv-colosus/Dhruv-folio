@@ -9,19 +9,11 @@ import {
 import { useState } from "react";
 
 const ProjectGrid = () => {
-  const [filter, setFilter] = useState(true);
+  const [filter, setFilter] = useState(false);
 
   return (
     <>
       <div className="mb-10 flex gap-16 text-[#e4ded7] md:mb-16  lg:mb-20 ">
-        <h4
-          className={`text-[16px] md:text-[20px] lg:text-[24px] ${
-            filter ? "text-[#e4ded7]" : "text-[#e4ded7]/30"
-          }`}
-          onClick={() => setFilter(true)}
-        >
-          Development
-        </h4>{" "}
         <h4
           className={`text-[16px] md:text-[20px] lg:text-[24px] ${
             filter ? "text-[#e4ded7]/30" : "text-[#e4ded7]"
@@ -29,6 +21,14 @@ const ProjectGrid = () => {
           onClick={() => setFilter(false)}
         >
           Design
+        </h4>{" "}
+        <h4
+          className={`text-[16px] md:text-[20px] lg:text-[24px] ${
+            filter ? "text-[#e4ded7]" : "text-[#e4ded7]/30"
+          }`}
+          onClick={() => setFilter(true)}
+        >
+          Development
         </h4>
       </div>
 
@@ -50,7 +50,7 @@ const ProjectGrid = () => {
         </div>
       ) : (
         <>
-          <div className="grid   w-[90%] grid-cols-1 gap-5 lg:grid-cols-2">
+          <div className="grid   w-[98%] grid-cols-1 gap-5 lg:grid-cols-2">
             {designProjects.map((project: DesignProps) => (
               <DesignCard
                 id={project.id}

@@ -44,7 +44,17 @@ export const devProjects = [
 
 export const designProjects = [
   {
-    id: 1,
+    id: 5,
+    name: "TG BOT DEV",
+
+    figma:
+      "https://www.figma.com/proto/hQAxsVSGeiPYV3iGIBEzGe/TG-BOT?page-id=0%3A1&type=design&node-id=17-108&viewport=323%2C-163%2C0.36&t=jG6sVV4T3wKMxfpC-1&scaling=scale-down&mode=design",
+    demo: "",
+    image: require(".//../../public/projects/tgdev.png"),
+    available: false,
+  },
+  {
+    id: 5,
     name: "Digital Duellers",
 
     figma:
@@ -86,23 +96,21 @@ export const designProjects = [
   },
 
   {
-    id: 5,
-    name: "Articuno Shop",
+    id: 1,
+    name: "Bet AI",
 
-    figma:
-      "https://www.figma.com/file/pRLSeJEd4VsH1D8BUvn4iV/Login-Page?type=design&node-id=0%3A1&mode=design&t=YyKtm1wuj82TY7Dx-1",
+    figma: "https://bet-ai.netlify.app/",
     demo: "",
-    image: require(".//../../public/projects/articuno.png"),
+    image: require(".//../../public/projects/betai.png"),
     available: false,
   },
   {
     id: 4,
     name: "MITHRA store",
 
-    figma:
-      "https://www.figma.com/file/s1DxHbe48Dc2UXXpAJ2UIA/Untitled?type=design&node-id=141%3A7&mode=design&t=o1F4wamtEhb4stDC-1",
+    figma: "https://moonex.netlify.app/",
     demo: "",
-    image: require(".//../../public/projects/warra.png"),
+    image: require(".//../../public/projects/moonexl.png"),
     available: false,
   },
 ];
