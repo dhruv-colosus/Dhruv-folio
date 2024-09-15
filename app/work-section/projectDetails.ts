@@ -20,13 +20,13 @@ export type DesignProps = {
 export const devProjects = [
   {
     id: 0,
-    name: "THCplus",
+    name: "OktoGram",
     description:
-      "THCblog offers an intuitive platform for college society circuits to post blogs effortlessly. Manage content easily with our user-friendly admin dashboard. Empower your college community with insightful articles.",
-    technologies: ["Next.js", "Typescript", "Prisma"],
-    github: "https://github.com/ujjujjuj/thc-blog",
-    demo: "https://blog.thcplus.in/",
-    image: require(".//../../public/projects/thcblog.png"),
+      "OktoGram is a web3 enabled social media cum giveaway platform. It allows users to create and participate in giveaways using their NFTs. It also allowes users to award posts and make friends.",
+    technologies: ["Next.js", "Polygon", "Prisma", "Okto"],
+    github: "https://github.com/dhruv-colosus/OktoGram",
+    demo: "https://oktogram.ujwl.in/",
+    image: require(".//../../public/projects/oktogram.png"),
     available: true,
   },
   {
@@ -40,11 +40,22 @@ export const devProjects = [
     image: require(".//../../public/projects/cryptic.png"),
     available: true,
   },
+  {
+    id: 2,
+    name: "THCplus",
+    description:
+      "THCblog offers an intuitive platform for college society circuits to post blogs effortlessly. Manage content easily with our user-friendly admin dashboard. Empower your college community with insightful articles.",
+    technologies: ["Next.js", "Typescript", "Prisma"],
+    github: "https://github.com/ujjujjuj/thc-blog",
+    demo: "https://blog.thcplus.in/",
+    image: require(".//../../public/projects/thcblog.png"),
+    available: true,
+  },
 ];
 
 export const designProjects = [
   {
-    id: 5,
+    id: 7,
     name: "TG BOT DEV",
 
     figma:
@@ -62,6 +73,16 @@ export const designProjects = [
     demo: "",
     image: require(".//../../public/projects/digitduel.png"),
     available: false,
+  },
+  {
+    id: 8,
+    name: "TokenBoard",
+
+    figma:
+      "https://www.figma.com/design/2YoOvUWUXkI2M8ZV8AsBeG/tokenboard?node-id=0-1&t=Xz7LRTQnUB2zRKD5-1",
+    demo: "",
+    image: require(".//../../public/projects/tokenboard.png"),
+    available: true,
   },
   {
     id: 6,
@@ -102,6 +123,16 @@ export const designProjects = [
     figma: "https://bet-ai.netlify.app/",
     demo: "",
     image: require(".//../../public/projects/betai.png"),
+    available: false,
+  },
+  {
+    id: 9,
+    name: "SendEx",
+
+    figma:
+      "https://www.figma.com/design/TNMFpwwcB0cjlL2wWMvfxv/sendex?node-id=0-1&t=vjhckEqgFXjeUveu-1",
+    demo: "",
+    image: require(".//../../public/projects/sendex_1.png"),
     available: false,
   },
   {

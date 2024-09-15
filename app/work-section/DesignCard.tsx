@@ -17,7 +17,7 @@ const DesignCard = ({ id, name, figma, image, available }: DesignProps) => {
           position: "relative",
         } as React.CSSProperties
       }
-      className={` relative z-10 h-[300px] w-full max-w-4xl items-stretch justify-center overflow-hidden bg-center py-0  transition   duration-300 ease-in-out hover:scale-105 sm:h-[500px] sm:w-[100%] md:h-[500px] md:w-[100%] lg:h-[500px]`}
+      className={` relative z-10 h-[250px] w-full max-w-4xl items-stretch justify-center overflow-hidden bg-center py-0  transition   duration-300 ease-in-out hover:scale-105 sm:h-[500px] sm:w-[100%] md:h-[500px] md:w-[100%] lg:h-[500px]`}
       initial="initial"
       animate="animate"
     >
